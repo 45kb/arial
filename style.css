@@ -4,7 +4,7 @@ html, body {
 }
 html {
   height: 100%;
-  background: url(background.jpg);
+  background: url(bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -27,34 +27,50 @@ html {
   right:0;
 }
 h1 {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: lighter;
+
+  margin: 0 auto;
+  width: 220px;
+  padding: 10px 0;
+  margin-top: -10px;
+  border-radius: 5px;
 }
 
 .button {
   border-radius: 20px;
   padding: 10px 0;
-  width: 210px;
+  width: 220px;
   display: inline-block;
   color: white;
   text-decoration: none;
   margin-top: 5vh;
-  background: rgba(0,0,0,.8);
+  background: black;
   font-weight: bold;
   font-size: 14px;
 }
-.button b {
-  font-size: 16.5px;
-  margin-right: 5px;
-}
+
 .button:hover, .button:active, .button:focus {
-  background: white;
-  color: black;
   transition: .5s all linear;
+  transform: scale(2)
 }
 .logo {
-  width: 180px;
-  margin-top: 15%;
-  margin-top: 30vh;
-  margin-bottom: 10px;
+  width: 200px;
+
+  padding-top: 15%;
+  padding-top: 30vh;
+  padding-left:10px;
+  padding-right:10px;
+  padding-bottom:15px;
+}
+.map-link {
+  color: grey;
+  text-decoration: none;
+  background: black;
+  position: fixed;
+  bottom:0;
+  left:0;
+  right:0;
+  font-size: 12px;
+  padding: 20px;
 }
