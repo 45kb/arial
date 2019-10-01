@@ -24,13 +24,13 @@
   </head>
   <body>
     <div class="wrapper">
-      <img class="logo" src="logo.png"/>
+      <img class="logo animated fadeIn" src="logo.png"/>
       <h1>Web Marketing | Agency</h1>
-      <a class="button animated slideInUp" target="_blank" href="mailto:arial.agency@gmail.com"> Contact Us</a>
+      <a class="button animated zoomInUp " id="contact-button" target="_blank" href="mailto:arial.agency@gmail.com"> Contact us</a>
       <div class="footer">
         <a href="https://goo.gl/maps/BBhQL8c8rXfLbaiU9" target="_blank">
         <i class="fa fa-map-marker"></i>
-        We are in Follonica - Italy.
+        Italy, Follonica.
         </a>
         &nbsp;|&nbsp;
         <a>© Arial Agency 2019 </a>
@@ -38,5 +38,13 @@
 
 
     </div>
+    <script type="text/javascript">
+    var userLang = navigator.language || navigator.userLanguage
+      , contactButton = document.getElementById('contact-button')
+      //se la lingua del browser è italian
+      if(userLang.includes('IT')) {
+        contactButton.innerText = 'Contattaci'
+      }
+  </script>
   </body>
 </html>
