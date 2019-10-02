@@ -8,7 +8,7 @@ html {
   background: url(bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: right;
+  background-position: top;
   color: white;
   text-align: center;
 }
@@ -35,7 +35,7 @@ h1 {
 .button {
   border-radius: 5px;
   padding: 8px 0;
-  width: 250px;
+  width: 238px;
   background: rgba(0,0,0, .1);
   display: inline-block;
   color: white;
@@ -51,9 +51,9 @@ h1 {
   background: white;
 }
 .logo {
-  max-width: 240px;
+  width: 240px;
   opacity: .7;
-  padding-top: 26vh;
+  padding-top: 24vh;
   padding-left:10px;
   padding-right:10px;
   padding-bottom:15px;
