@@ -92,8 +92,12 @@ h1 {
 }
 .footer a {
   opacity:.3;
-  color: white;
-  text-decoration: none;
+  color:white;
+}
+.social-link {
+  font-size: 18px;
+  vertical-align: middle;
+  margin-left: 5px;
 }
 .footer {
   font-size: 12px;
