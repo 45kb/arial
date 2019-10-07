@@ -7,7 +7,7 @@
 	  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
 	  <meta http-equiv="cache-control" content="max-age=86400" />
 	  <meta name="description" content="Arial Web Marketing Agency" >
-	  <meta name="keywords" content="SEO, marketing, online, services, servizi, social, media, pages, website, brand, trend, sales, growth,italia, follonica, grosseto, maremma, firenze, toscana, english, italian, grafica, graphics" >
+	  <meta name="keywords" content="agenzia, web, pubblicità, follonica, italy, grosseto, toscana, SEO, marketing, online, services, servizi, social, media, pages, website, sito, brand, trend, sales, vendite, growth, italia, inglese, italiano, a, follonica, grosseto, maremma, toscana, livorno, piombino, firenze, english, italian, grafica, graphics, logo, studio" >
 	  <meta name="audience" content="all" />
 	  <meta name="distribution" content="global" />
 	  <meta name="rating" content="general" />
@@ -22,46 +22,70 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   </head>
   <body>
-      <img class="logo animated fadeIn" src="logo.png"/>
-      <h1>Web Marketing | Agency</h1>
-      <a class="button animated zoomInUp " id="contact-button" target="_blank" href="mailto:arial.agency@gmail.com"> Contact us</a>
+    <div class="bottom-fade">&nbsp;</div>
+    <div class="wrapper">
+      <img class="logo animated" src="logo.png"/>
+        <h1>Web Marketing Agency</h1>
+        <a class="button eng" id="contact-button" target="_blank" href="mailto:info@arialagency.com">Contact us</a>
+        <a class="button hide ita" id="contact-button" target="_blank" href="mailto:info@arialagency.com">Contattaci</a>
 
-    <div class="line services">
+    <div class="line services" id="services">
       <div class="line-tablet col5 line-mobile">
-        <div class="col5 line-mobile">
+        <div class="col5 line-tablet">
           <h2>Advertising</h2>
-          <p>We take care of your targeted online advertising, we can manage your money for the best result.</p>
+          <p class="eng"><span>We take care of your online advertising, we can manage your budget for the best result.</span></p>
+          <p class="ita hide"><span>Creiamo la tua online advertising, possiamo gestire il tuo budget per il risultato piu efficace.</span></p>
 
         </div>
-        <div class="col5 line-mobile">
+        <div class="col5 line-tablet">
           <h2>Brand reputation</h2>
-          <p>Making sure that your brand is perfect online, brand reputation is essential for your business.</p>
+          <p class="eng"><span>Making sure that your brand is perfect online, brand reputation is essential for your business.</span></p>
+          <p class="ita hide"><span>Facciamo in modo che il tuo brand risulti perfetto online, il brand e la reputazione è fondamentale per il tuo business.</span></p>
+
         </div>
       </div>
       <div class="col5 line-tablet line-mobile">
-        <div class="col5 line-mobile">
-            <h2>SEO</h2>
-            <p>Search engine optimization services and targeted keywords for your brand to spread.</p>
+        <div class="col5 line-tablet">
+            <h2>SEO & Content</h2>
+            <p class="eng"><span>Search engine optimization, keywords research and content optimisation for your business.</span></p>
+            <p class="ita hide"><span>Ottimizzazione per i motori di ricerca, ricerca delle keywords e ottimizzazione dei contenuti per il tuo business.</span></p>
           </div>
-        <div class="col5 line-mobile">
+        <div class="col5 line-tablet">
           <h2>Social Media</h2>
-          <p>Taking care of the social medias to ensure maximum visibility and maximum reach for your business.</p>
+          <p class="eng"><span>Taking care of the social media to ensure maximum visibility and largest audience for your business.</span></p>
+          <p class="ita hide"><span>Ci prendiamo cura dei tuoi social media per garantire massima visibilità e audience per il tuo business.</span></p>
         </div>
       </div>
     </div>
     <div class="footer">
       <a href="https://goo.gl/maps/BBhQL8c8rXfLbaiU9" target="_blank">
-      © Arial Agency - 2019 </a>
+      © Arial Agency - 2019 - Tuscany </a>
     </div>
-    <script type="text/javascript">
-    var userLang = navigator.language || navigator.userLanguage
-      , contactButton = document.getElementById('contact-button')
-      //se la lingua del browser è italian
-      if(userLang.includes('IT')) {
-        contactButton.innerText = 'Contattaci'
-      }
-  </script>
+</div>
+<script type="text/javascript">
+var userLang = navigator.language || navigator.userLanguage;
+//se la lingua del browser è italian, mostra gli elementi in italiano e rimuovi gli inglesi
+  if(userLang.includes('IT')) {
+      $('.eng').hide(0);
+      $('.ita').removeClass('hide');
+  }
+</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-149505563-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-149505563-1');
+</script>
+<!-- start Mixpanel --><script type="text/javascript">(function(c,a){if(!a.__SV){var b=window;try{var d,m,j,k=b.location,f=k.hash;d=function(a,b){return(m=a.match(RegExp(b+"=([^&]*)")))?m[1]:null};f&&d(f,"state")&&(j=JSON.parse(decodeURIComponent(d(f,"state"))),"mpeditor"===j.action&&(b.sessionStorage.setItem("_mpcehash",f),history.replaceState(j.desiredHash||"",c.title,k.pathname+k.search)))}catch(n){}var l,h;window.mixpanel=a;a._i=[];a.init=function(b,d,g){function c(b,i){var a=i.split(".");2==a.length&&(b=b[a[0]],i=a[1]);b[i]=function(){b.push([i].concat(Array.prototype.slice.call(arguments,
+0)))}}var e=a;"undefined"!==typeof g?e=a[g]=[]:g="mixpanel";e.people=e.people||[];e.toString=function(b){var a="mixpanel";"mixpanel"!==g&&(a+="."+g);b||(a+=" (stub)");return a};e.people.toString=function(){return e.toString(1)+".people (stub)"};l="disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove".split(" ");
+for(h=0;h<l.length;h++)c(e,l[h]);var f="set set_once union unset remove delete".split(" ");e.get_group=function(){function a(c){b[c]=function(){call2_args=arguments;call2=[c].concat(Array.prototype.slice.call(call2_args,0));e.push([d,call2])}}for(var b={},d=["get_group"].concat(Array.prototype.slice.call(arguments,0)),c=0;c<f.length;c++)a(f[c]);return b};a._i.push([b,d,g])};a.__SV=1.2;b=c.createElement("script");b.type="text/javascript";b.async=!0;b.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?
+MIXPANEL_CUSTOM_LIB_URL:"file:"===c.location.protocol&&"//cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js";d=c.getElementsByTagName("script")[0];d.parentNode.insertBefore(b,d)}})(document,window.mixpanel||[]);
+mixpanel.init("6d50e326d080dedca1363f61dc2a9007");</script><!-- end Mixpanel -->
   </body>
 </html>
