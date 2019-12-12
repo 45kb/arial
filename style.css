@@ -3,10 +3,8 @@ html, body {
   font-family: Arial;
 }
 html {
-  background: url(bg.jpg);
-  background-repeat: no-repeat;
+  background:  url(bg.jpg) no-repeat bottom right fixed;
   background-size: cover;
-  background-position: bottom ;
 color: white;
   text-align: center;
 }
@@ -30,12 +28,10 @@ h1 {
   color:black;
   font-weight: bold;
   text-align: center;
-  font-size: 30px;
+  font-size: 60px;
   color: white;
   padding: 3px;
-  margin-bottom:20px;
-  background: rgba(0,0,0, .7);
-  max-width: 350px;
+  margin:0 2%;
   margin-top: 260px;
 }
 
@@ -63,7 +59,7 @@ h1 {
   background: white;
 }
 .logo {
-  width: 150px;
+  width: 140px;
   position: absolute;
   top:20px;
   left:2%;
@@ -72,7 +68,8 @@ h1 {
   max-width: 1300px;
 }
 .services {
-  margin-top: 10%;
+  margin-top: 100px;
+  margin-top:12vh;
   margin-bottom: 50px;
 }
 .services p {
@@ -135,5 +132,8 @@ h1 {
   }
   .footer {
     padding-bottom: 100px;
+  }
+  h1 {
+    font-size: 30px;
   }
 }
