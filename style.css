@@ -49,10 +49,15 @@ color: white;
 .wrapper {
   max-width: 1300px;
 }
+
 .footer a {
   opacity:.3;
   color:white;
 }
+.footer a:hover, .footer a:focus {
+  opacity: 1;
+  transition: all .3s linear;
+  }
 .social-link {
   font-size: 18px;
   vertical-align: middle;
