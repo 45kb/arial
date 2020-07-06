@@ -41,10 +41,11 @@ h1 {
 #contact-button {
 color: white;
     font-size: 14px;
-    /* font-weight: lighter; */
+
     background: black;
     padding: 5px 20px;
     border-radius: 23px;
+}
 .wrapper {
   max-width: 1300px;
 }
