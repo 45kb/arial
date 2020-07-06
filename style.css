@@ -24,14 +24,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
   display: none !important;
 }
 h1 {
-  color:black;
-  font-weight: bold;
-  text-align: center;
-  font-size: 50px;
-  color: white;
-  padding: 3px;
-  margin:0 2%;
-  margin-bottom: 10px;
+ font-weight: bold;
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    padding: 3px;
+    margin: 0 2%;
+    margin-bottom: 10px;
 }
 
 .logo {
@@ -43,8 +42,8 @@ h1 {
 color: white;
     font-size: 14px;
     background: rgba(0,0,0,.5);
-    padding: 5px 20px;
-    border-radius: 23px;
+    padding: 5px 25px;
+    border-radius: 15px;
 }
 #contact-button:hover, #contact-button:focus {
 transitions: all .3s linear;
