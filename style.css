@@ -27,14 +27,16 @@ h1 {
   color:black;
   font-weight: bold;
   text-align: center;
-  font-size: 60px;
+  font-size: 40px;
   color: white;
   padding: 3px;
   margin:0 2%;
 }
 
 .logo {
-  width: 160px;
+  width: 50%;
+    margin-top: 10%;
+    max-width: 250px;
 }
 .wrapper {
   max-width: 1300px;
