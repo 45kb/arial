@@ -41,7 +41,8 @@ h1 {
 #contact-button {
 color: white;
     font-size: 14px;
-
+    margin-top: 20px;
+    margin-bottom: 80px;
     background: black;
     padding: 5px 20px;
     border-radius: 23px;
