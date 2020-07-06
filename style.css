@@ -61,36 +61,10 @@ h1 {
 .logo {
   width: 140px;
   position: absolute;
-  top:20px;
-  left:2%;
+  margin:0 auto;
 }
 .wrapper {
   max-width: 1300px;
-}
-.services {
-  margin-top: 100px;
-  margin-top:12vh;
-  margin-bottom: 50px;
-}
-.services p {
-  transform: skewX(-10deg);
-  border-radius: 2px;
-  background: rgba(0,0,0, .7);
-  padding: 5%;
-  margin-bottom: 20px;
-  width: 73%;
-  font-size: 16px;
-  color:white;
-}
-.services p * {
-  display: inline-block;
-  transform: skew(10deg);
-}
-.services h2 {
-  padding: 20px;
-  display: inline-block;
-  font-size: 22px;
-  color:white;
 }
 .footer a {
   opacity:.3;
